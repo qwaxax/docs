@@ -15,20 +15,20 @@ title: Commands
 ## Song
 ---
 <!-- Song-related commands -->
-- **`!join`** - Summons the bot to the voice channel you are in.
+- **`.join`** - Summons the bot to the voice channel you are in.
     - **Aliases:** `summon`
 ---
-- **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
-    - **Usage:** `!play <link/query>`
+- **`.play`** - Plays a song with the given name or url. [**More Info**](/play_song)
+    - **Usage:** `.play <link/query>`
     - **Alias:** `p`
 ---
-- **`!playtop`** - Adds a song with the given name/url __on the top of the queue__.
-    - **Usage:** `!playtop <link/query>`
+- **`.playtop`** - Adds a song with the given name/url __on the top of the queue__.
+    - **Usage:** `.playtop <link/query>`
     - **Aliases:** `pt`, `ptop`
 ---
-- **`!playskip`** - Skips the current song and plays the song you requested.
-    - **Usage:** `!playskip <link/query>`
-    - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
+- **`.skip`** - Skips the current song and plays the song you requested.
+    - **Usage:** `.skip <link/query>`
+    - **Aliases:** `s`, `skip`
 ---
 - **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
     - **Usage:** `!search <query>`
@@ -74,8 +74,8 @@ title: Commands
 - **`!resume`** - Resumes paused music.
     - **Aliases:** `re`, `res`, `continue`
 ---
-- **`!lyrics`** - Gets the lyrics of the current playing song.
-    - **Other Usage:** `!lyrics <song name>` - Gets the lyrics of the mentioned song.
+- **`.lyrics`** - Gets the lyrics of the current playing song.
+    - **Other Usage:** `.lyrics <song name>` - Gets the lyrics of the mentioned song.
     - **Aliases:** `l`, `ly`
 ---
 - **`!disconnect`** - Disconnects the bot from the voice channel it is in.
